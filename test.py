@@ -1,13 +1,21 @@
-print("Please Enter Weather Status in today")
+print("Please Input Your Marks :\n")
+mark = 0
+grade = 'null'
 
-weather_Status = input()
+mark = int(input())
 
-message_01 = "Please dont go out today is rainy day"
-message_02 = "You can go any where today is sunny day"
-
-if weather_Status == "rainy":
-    print(message_01)
-
+if mark >= 85:
+    grade = 'A'
+elif mark >= 75:
+    grade = 'B'
+elif mark >= 65:
+    grade = 'C'
+elif mark >= 55:
+    grade = 'D'
 else:
-    print(message_02)
+    grade = 'F'
+
+print("Your Grade is :", grade)
+print("Your Mark is :", mark)
+
 
