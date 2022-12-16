@@ -1,9 +1,13 @@
-print("This is Demo Calculator for Add Two Numbers:")
-print("Enter First Number :", end=" ")
-x = int(input())
+print("Please Enter Weather Status in today")
 
-print("Enter Second Number :", end=" ")
-y = int(input())
+weather_Status = input()
 
-result = x+y
-print("Your Result is :", result)
+message_01 = "Please dont go out today is rainy day"
+message_02 = "You can go any where today is sunny day"
+
+if weather_Status == "rainy":
+    print(message_01)
+
+else:
+    print(message_02)
+
