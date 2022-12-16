@@ -1,5 +1,7 @@
-for k in range(1, 12):
+for i in range(0, 5):
+    for j in range(0, i+1):
+        print('x', end=" ")
+    print('')
 
-    print('Multiplication Table for', k)
-    for i in range(1, 13):
-        print(i, 'x', k, '=', i*k)
+
+
